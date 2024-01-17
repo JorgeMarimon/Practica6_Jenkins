@@ -1,0 +1,9 @@
+Enlace a FIGMA (Mockup)
+https://www.figma.com/file/e0JYtWlSCHSNEvt99prlKD/Web-Comics?type=design&mode=design&t=UpJfrNoVM7nci7jX-1
+
+Enlace a GITHUB
+https://github.com/JorgeMarimon/CLIENTE_TEMA_5.git
+
+Enlace a GITHUB PAGES
+https://jorgemarimon.github.io/CLIENTE_TEMA_5/ (NO FUNCIONA BIEN, SEGÚN HE INVESTIGADO, 
+GITHUB PAGES SOLO ACEPTA HTML, CSS Y JS. EN MI PROYECTO SE USA JQUERY Y BOOTSTRAP)
