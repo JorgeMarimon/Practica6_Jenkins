@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --bg-color: #ededed;
+  --text-color: #000000;
+  --main-color: #00abf0;
+  --text-color2: #198754;
+  --btn-color: #a73d33;
+  --btn-color-hover: #702922;
+  --footer: rgb(158, 157, 157);
+  --span: rgb(202, 189, 8);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+@media (max-width: 390px) {
+  .divIconos {
+    margin-bottom: 1rem;
+  }
+}
+
+.logoPequeno {
+  margin-left: 2rem;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+span {
+  color: var(--span);
+}
+
+.acercaDeTitulos {
+  text-align: center;
+}
+
+.media{
+  margin-top: 0.5rem;
+}
+
+.divFormulario {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 390px) {
+  #mapa {
+    max-width: 30rem;
+    max-height: 30rem;
+  }
+}
+
+#infoLocalizacion {
+  margin-top: 3rem;
+}
+#contactoFormulario {
+  color: #007bff;
+}
+
+#enviarCorreo {
+  background-color: #007bff;
+  border: none;
+  margin-top: 1rem;
+}
+
+#botonAcercaDe,
+#botonDondeEstamos,
+#botonContacto,
+#verTodosRol,
+#verTodoMerchandising {
+  cursor: pointer;
+}
+
+.bx:hover {
+  color: var(--text-color2);
+}
+
+.cabecera {
+  font-size: 1.8rem;
+}
+
+.info {
+  margin-top: 1rem;
+}
+
+.dropdown-menu {
+  --bs-dropdown-min-width: 30rem;
+  padding: 2rem;
+}
+
+#iconoCarrito {
+  font-size: 2.4rem;
+}
+
+.botonLista {
+  margin-right: 3rem;
+  font-size: 1.3rem;
+  width: 8rem;
+}
+
+.producto-carrito {
+  margin-bottom: 1.5rem; /* Ajusta el espacio entre productos */
+}
+
+.img-thumbnail {
+  width: 8rem; /* Ajusta el tamaño de la imagen */
+  height: 8rem;
+  margin-right: 10px; /* Ajusta el espacio entre la imagen y el contenido */
+}
+
+.contenido-producto p {
+  font-size: 1.8rem; /* Ajusta el tamaño de la letra */
+}
+
+.botones-compra p {
+  font-size: 1.5rem;
+}
+
+.botones-compra p:nth-child(2) {
+  font-size: 2rem; /* Ajusta el tamaño de la letra del segundo p */
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url("/img/banner.jpg");
+  height: 27rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner img {
+  width: 25rem;
+  height: 25rem;
+}
+
+.navbar-nav {
+  margin-left: 10rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 0rem;
+  }
+}
+
+.navbar-nav li {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.nav-item {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: var(--text-color2);
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: var(--text-color2);
+}
+
+.navbar-nav .nav-link.show:hover {
+  color: var(--text-color2);
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .nav-link {
+    font-size: 3rem;
+  }
+}
+
+.ulNavegador {
+  text-align: center;
+}
+
+#buscadorNavegador {
+  padding: 0.4rem;
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  #buscadorNavegador {
+    margin-top: 2rem;
+  }
+}
+
+#botonBuscar {
+  padding: 1.6rem !important;
+}
+
+.divBotones {
+  margin-top: 1rem;
+}
+
+.divBotones .btn {
+  font-size: 1.5rem;
+}
+
+.divBotones .btn.otro {
+  font-size: 1rem;
+}
+
+#resultadosBuscador {
+  margin-top: 7rem;
+}
+
+.titulosSeccion {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 4rem !important; /* Ajusta el tamaño según sea necesario */
+  color: black !important; /* Ajusta el color según sea necesario */
+}
+
+.slick-next:before {
+  content: "" !important;
+}
+
+.slick-prev:before {
+  content: "" !important;
+}
+
+@media (max-width: 390px) {
+  #carouselCardMovil {
+    margin-left: 4rem;
+  }
+}
+
+.seccionCompleta {
+  margin-top: 3rem;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.verTodos {
+  width: 15rem;
+  height: 3rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.cardSimple {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 390px) {
+  #slick-carousel {
+    max-width: 35rem;
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.img-fluid.seccionRol,
+.seccionMerchandising {
+  margin-top: 4.5rem;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.58);
+  border-radius: 2rem;
+}
+
+footer {
+  background-color: var(--footer);
+  margin-top: 3rem;
+}
+footer p {
+  color: white;
+  font-weight: bold;
+}
+
+#graciasCompra {
+  width: 50rem;
+  height: 50rem;
+  margin-top: 10rem;
+}
+
+.tituloModalInfo {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sinopsisModalInfo {
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+.miCuenta,
+.miIdioma {
+  cursor: pointer;
+}
+
+#desplegableMiCuenta {
+  margin-top: 1.1rem !important;
+}
+
+.limitoAncho {
+  max-width: 20rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.limitoAncho2 {
+  max-width: 35rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.textoLimitado {
+  max-height: 1.5em; /* ajusta la altura según sea necesario */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: black;
+}
+
+.cardBuscador {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#Rol,
+#Libros,
+#Merchandising {
+  margin-top: 5rem;
+}
+
+.form-group {
+  margin-top: 2rem;
+}
